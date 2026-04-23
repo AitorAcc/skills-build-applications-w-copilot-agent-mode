@@ -1,0 +1,60 @@
+.App {
+  background-color: #f0f8ff;
+  color: #333;
+  min-height: 100vh;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #1976d2;
+  border-color: #1976d2;
+}
+
+.btn-primary:hover {
+  background-color: #1565c0;
+  border-color: #1565c0;
+}
+
+h2 {
+  color: #0d47a1;
+}
+
+.navbar {
+  background-color: #0d47a1 !important;
+}
+
+.navbar-brand, .navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #e3f2fd !important;
+}
+
+.alert-info {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  border-color: #1976d2;
+}
+
+.alert-danger {
+  background-color: #ffebee;
+  color: #c62828;
+  border-color: #c62828;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #1976d2;
+}
+
+.card-title {
+  color: #0d47a1;
+}
